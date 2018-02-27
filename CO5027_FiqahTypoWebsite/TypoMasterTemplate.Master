@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TypoMasterTemplate.master.cs" Inherits="CO5027_FiqahTypoWebsite.TypoMasterTemplate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="~/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="~/css/coin-slider.css" />
+<script type="text/javascript" src="~/scripts/cufon-yui.js"></script>
+<script type="text/javascript" src="~/scripts/cufon-titillium-900.js"></script>
+<script type="text/javascript" src="~/scripts/jquery-142.js"></script>
+<script type="text/javascript" src="~/scripts/script.js"></script>
+<script type="text/javascript" src="~/scripts/coin-slider.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div>
+        <div class="main">
+  <div class="header">
+    <div class="header_resize" style="height: 127px">
+      <div class="logo" style="width: 380px; height: 123px">
+        <h1 style="width: 376px; height: 81px"><img src="image/typo logo large.png" height="82" width="364"></h1>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="#"><span>Home</span></a></li>
+          <li><a href="#"><span>Products</span></a></li>
+          <li><a href="#"><span>About Us</span></a></li>
+          <li><a href="#"><span>Contact</span></a></li>
+          <li><a href="#"><span>Login</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="slider">
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+    <div class="fbg">
+    
+  </div>
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf" style="text-align: center">&copy; Copyright Typo | Nur Afiqah.</p>
+    </div>
+  </div>
+</div>
+        
+    </div>
+    </form>
+</body>
+</html>

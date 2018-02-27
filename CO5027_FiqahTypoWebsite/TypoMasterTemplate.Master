@@ -31,11 +31,13 @@
       </div>
       <div class="menu_nav">
         <ul>
-          <li class="active"><a href="#"><span>Home</span></a></li>
-          <li><a href="#"><span>Products</span></a></li>
-          <li><a href="#"><span>About Us</span></a></li>
-          <li><a href="#"><span>Contact</span></a></li>
-          <li><a href="#"><span>Login</span></a></li>
+          <li class="active"><a href="#"><span><strong>Home</strong></span></a></li>
+          <li><a href="#"><span><strong>Products</strong></span></a></li>
+          <li><a href="#"><span><strong>About Us</strong></span></a></li>
+          <li><a href="#"><span><strong>Contact</strong></span></a></li>
+          <li><a href="#"><span><img src="image/login icon for typo website.png"></span></a></li>
+          <li><a href="#"><span><img src="image/shopping cart icon for typo website.png"></span></a></li>
+
         </ul>
       </div>
       <div class="clr"></div>

@@ -33,8 +33,8 @@ p {
 	padding:0 0 8px 0;
 }
 a {
-	color:#315d7f;
-	text-decoration:underline;
+	color:white;
+	text-decoration:none;
 }
 .header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar {
 	margin:0;
@@ -128,18 +128,18 @@ h1 small {
 	font-size:14px;
 	line-height:16px;
 	font-weight:normal;
-	color:blue;
+	color:black;
 	text-decoration:none;
 	text-transform:none;
 	border-right:1px solid #fff;
 }
 .menu_nav ul li.active a {
 	text-decoration:none;
-	color:blue;
+	color:black;
 }
 .menu_nav ul li a:hover {
-	text-decoration:underline;
-	color:#fff;
+	text-decoration:none;
+	color:navy;
 }
 .content {
 	padding:18px 0 0;
@@ -148,7 +148,6 @@ h1 small {
 	margin:0 auto;
 	padding:0;
 	width:960px;
-    height: 463px;
 }
 .content .mainbar {
 	margin:0;

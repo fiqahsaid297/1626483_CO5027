@@ -6,29 +6,38 @@
     Welcome to Typo website
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <h2>get in touch</h2>
+			    	 		<div class="map">
+					   			<iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d254962.68992626385!2d101.57319!3d3.1494939!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x31cc362c900ce507%3A0xecb4d0003462e922!2sPavilion%2C+Typo%2C+Jalan+Raja+Chulan%2C+Bukit+Bintang%2C+55100+Kuala+Lumpur%2C+Wilayah+Persekutuan+Kuala+Lumpur%2C+Malaysia!3m2!1d3.1494939!2d101.7132657!5e0!3m2!1sen!2sbn!4v1520169909183"></iframe><br><small><a href="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d254962.68992626385!2d101.57319!3d3.1494939!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x31cc362c900ce507%3A0xecb4d0003462e922!2sPavilion%2C+Typo%2C+Jalan+Raja+Chulan%2C+Bukit+Bintang%2C+55100+Kuala+Lumpur%2C+Wilayah+Persekutuan+Kuala+Lumpur%2C+Malaysia!3m2!1d3.1494939!2d101.7132657!5e0!3m2!1sen!2sbn!4v1520169909183" style="color:#777777;text-align:left;font-size:13px;font-family: 'Source Sans Pro', sans-serif;">View Larger Map</a></small>
+					   		</div>
+
       <div class="content">
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
-          <h2><span>Send us</span> mail</h2>
+          <h2><span>Send us</span> E-mail<img src="image/mail icon for typo website.jpg" /></h2>
           <div class="clr"></div>
           <form action="#" method="post" id="sendemail">
             <ol>
               <li>
-                <label for="name">Name (required)</label>
+                  <span class="auto-style5">
+                <label for="name">Name (required)</label></span>
                 <input id="name" name="name" class="text" />
               </li>
               <li>
-                <label for="email">Email Address (required)</label>
+                  <span class="auto-style5">
+                <label for="email">Email Address (required)</label></span>
                 <input id="email" name="email" class="text" />
               </li>
               <li>
-                <label for="website">Website</label>
+                  <span class="auto-style5">
+                <label for="website">Website</label></span>
                 <input id="website" name="website" class="text" />
               </li>
               <li>
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+                  <span class="auto-style5">
+                <label for="message">Your Message</label></span>
+                <textarea id="message" name="message" cols="50"></textarea>
               </li>
               <li>
                 <input type="image" name="imageField" id="imageField" src="image/submit.gif" class="send" />

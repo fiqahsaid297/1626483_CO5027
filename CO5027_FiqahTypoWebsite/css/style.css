@@ -31,6 +31,7 @@ h2 {
 p {
 	margin:8px 0;
 	padding:0 0 8px 0;
+    color: #000000;
 }
 a {
 	color:white;
@@ -167,7 +168,8 @@ h1 small {
 	padding:12px 0 0;
 	float:left;
 }
-.content .mainbar img {
+.content .mainbar img {    height: 31px;
+    width: 47px;
 }
 .content .mainbar img.fl {
 	margin:0;
@@ -402,6 +404,7 @@ ol li textarea {
 	margin:0;
 	padding:2px;
 	background-color:#fff;
+    height: 89px;
 }
 ol li .send {
 	margin:16px 0 0 0;
@@ -489,4 +492,10 @@ a {
 	width: 960px;
 	padding: 16px 0;
 }
+.map{
+	margin: 2% 2% 2% 0;
+}
+.auto-style5 {
+            color: #660033;
+        }
 

@@ -49,13 +49,13 @@ namespace CO5027_FiqahTypoWebsite {
         protected global::System.Web.UI.WebControls.TextBox TextBox2;
         
         /// <summary>
-        /// LogUserIn control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button LogUserIn;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
         /// litLoginError control.

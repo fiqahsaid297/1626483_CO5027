@@ -31,7 +31,7 @@ h2 {
 p {
 	margin:8px 0;
 	padding:0 0 8px 0;
-    color: #000000;
+    color: #FFFFCC;
 }
 a {
 	color:white;
@@ -118,9 +118,11 @@ h1 small {
 	float:left;
 }
 .menu_nav ul li {
-	margin:0;
 	padding:0;
 	float:left;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 .menu_nav ul li a {
 	display:block;

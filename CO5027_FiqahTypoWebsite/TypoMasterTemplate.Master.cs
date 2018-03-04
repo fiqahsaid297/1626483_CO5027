@@ -13,5 +13,10 @@ namespace CO5027_FiqahTypoWebsite
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

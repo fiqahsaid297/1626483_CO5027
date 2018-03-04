@@ -29,16 +29,8 @@
       <div class="logo" style="width: 380px; height: 123px">
         <h1 style="width: 376px; height: 81px"><img src="image/typo logo large.png" height="82" width="364"></h1>
       </div>
-      <div class="menu_nav">
-        <ul>
-          <li class="active"><a href="~/default"><span><strong>Home</strong></span></a></li>
-          <li><a href="~/products"><span><strong>Products</strong></span></a></li>
-          <li><a href="#"><span><strong>About Us</strong></span></a></li>
-          <li><a href="~/contact" runat="server"><span><strong>Contact</strong></span></a></li>
-          <li><a href="#"><span><img src="image/login icon for typo website.png"></span></a></li>
-          <li><a href="#"><span><img src="image/shopping cart icon for typo website.png"></span></a></li>
-
-        </ul>
+        <asp:ContentPlaceHolder ID="nav" runat="server">
+        </asp:ContentPlaceHolder>
       </div>
       <div class="clr"></div>
       <div class="slider">
@@ -55,6 +47,17 @@
   <div class="footer">
     <div class="footer_resize">
       <p class="lf" style="text-align: center">&copy; Copyright Typo | Nur Afiqah.</p>
+        <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
     </div>
   </div>
 </div>

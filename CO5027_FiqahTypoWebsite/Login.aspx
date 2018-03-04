@@ -3,6 +3,18 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
+<asp:Content ID="content4" ContentPlaceHolderID="nav" runat="server">
+    <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="~/default"><span><strong>Home</strong></span></a></li>
+          <li><a href="~/products"><span><strong>Products</strong></span></a></li>
+          <li><a href="#"><span><strong>About Us</strong></span></a></li>
+          <li><a href="~/contact" runat="server"><span><strong>Contact</strong></span></a></li>
+          <li><a href="~/Login"><span><img src="image/login icon for typo website.png"></span></a></li>
+          <li><a href="#"><span><img src="image/shopping cart icon for typo website.png"></span></a></li>
+
+        </ul>
+</asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
 
     <p>
@@ -13,8 +25,8 @@
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </p>
     <p>
-        &nbsp;</p>
-    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+        <asp:Button ID="Button1" runat="server" style="height: 26px" Text="Login" />
+</p>
     <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
 
 </asp:Content>

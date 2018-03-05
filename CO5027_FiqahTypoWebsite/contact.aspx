@@ -42,19 +42,18 @@
                 <input id="email" name="email" class="text" />
               </li>
               <li>
-                  <span class="auto-style5">
-                <label for="website">Website</label></span>
-                <input id="website" name="website" class="text" />
+                  &nbsp;
               </li>
               <li>
                   <span class="auto-style5">
                 <label for="message">Your Message</label></span>
                 <textarea id="message" name="message" cols="50"></textarea>
               </li>
-              <li>
-                <input type="image" name="imageField" id="imageField" src="image/submit.gif" class="send" />
-                <div class="clr"></div>
+                <li>
+                    <asp:Button ID="btnSend" runat="server" Text="Send" />
               </li>
+              <li>
+                &nbsp;</li>
             </ol>
           </form>
         </div>

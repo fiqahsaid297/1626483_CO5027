@@ -14,8 +14,8 @@
           <li><a href="~/contact" runat="server"><span><strong>Contact</strong></span></a></li>
           <li><a href="~/Login"><span><img src="image/login icon for typo website.png"></span></a></li>
           <li><a href="#"><span><img src="image/shopping cart icon for typo website.png"></span></a></li>
-
         </ul>
+      </div>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
     <h2>location of typo, kl map</h2>

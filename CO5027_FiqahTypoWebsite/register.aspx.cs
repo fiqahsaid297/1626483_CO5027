@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
+
 
 namespace CO5027_FiqahTypoWebsite
 {
@@ -11,12 +14,12 @@ namespace CO5027_FiqahTypoWebsite
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+            
 		}
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Write("Your registration is completed & success!");
+           
         }
     }
 }

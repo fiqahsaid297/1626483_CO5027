@@ -32,7 +32,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Image ID="image4" runat="server" /><img src"/>
+                <asp:Image ID="image4" runat="server" /><img src="image/PC 06.jpg"/>
             <td class="auto-style18">
                 <asp:Image ID="Image5" runat="server" /><img src"/></td>
             <td>

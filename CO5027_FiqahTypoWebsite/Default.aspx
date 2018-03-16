@@ -1,13 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TypoMasterTemplate.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CO5027_FiqahTypoWebsite.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style17 {
-            width: 400px;
-            height: 600px;
-        }
-    </style>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">s
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="nav" runat="server">
     <div class="menu_nav">
@@ -26,33 +20,28 @@
     <table>
         <tr>
             <td>
-                <asp:Image ID="Image1" runat="server" />
+                <asp:Image ID="image01" runat="server" /><img src="image/PC 01.jpg"/>
+            <td class="auto-style18">
+                <asp:Image ID="Image2" runat="server" /><img src="image/PC 02.jpg"/></td>
             <td>
-                <asp:Image ID="Image2" runat="server" /></td>
+                <asp:Image ID="Image3" runat="server" /><img src></td>
             <td>
-                <asp:Image ID="Image3" runat="server" /></td>
+                <asp:Image ID="Image10" runat="server" /><img src></td>
+            <td>
+                <asp:Image ID="Image11" runat="server" /><img src>/></td>
         </tr>
         <tr>
             <td>
-                <asp:Image ID="Image4" runat="server" /></td>
+                <asp:Image ID="image4" runat="server" /><img src"/>
+            <td class="auto-style18">
+                <asp:Image ID="Image5" runat="server" /><img src"/></td>
             <td>
-                <asp:Image ID="Image5" runat="server" /></td>
+                <asp:Image ID="Image6" runat="server" /><img src"></td>
             <td>
-                <asp:Image ID="Image6" runat="server" /></td>
+                <asp:Image ID="Image7" runat="server" /><img src"></td>
+            <td>
+                <asp:Image ID="Image8" runat="server" /><img src">/></td>
         </tr>
-        <tr>
-            <td>
-                <asp:Image ID="Image7" runat="server"/><img src="image/Buffalo Barrel PC.PNG" width="200px"/> 
 
-            </td>
-            <td>
-                <asp:Image ID="Image8" runat="server" />
-
-            </td>
-            <td>
-                <asp:Image ID="Image9" runat="server" />
-
-            </td>
-        </tr>
     </table>
 </asp:Content>

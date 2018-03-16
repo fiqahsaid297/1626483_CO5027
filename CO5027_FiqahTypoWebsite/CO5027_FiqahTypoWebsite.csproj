@@ -143,8 +143,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="image\p2.jpg" />
-    <Content Include="image\p3.jpg" />
+    <Content Include="image\PC 01.jpg" />
+    <Content Include="image\PC 02.jpg" />
+    <Content Include="image\PC 03.jpg" />
+    <Content Include="image\PC 04.jpg" />
+    <Content Include="image\pc 05.jpg" />
+    <Content Include="image\PC 06.jpg" />
+    <Content Include="image\PC 07.jpg" />
+    <Content Include="image\PC 08.jpg" />
+    <Content Include="image\PC 09.jpg" />
+    <Content Include="image\PC 10.jpg" />
+    <Content Include="image\shopping cart icon for typo website.png" />
+    <Content Include="image\typo logo large.png" />
+    <Content Include="image\TYPO PC 02.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -166,22 +177,10 @@
     <Content Include="css\style.css" />
     <Content Include="contact.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="image\Buffalo Barrel PC.PNG" />
-    <Content Include="image\clear bailey case.jpg" />
     <Content Include="image\designtypo.PNG" />
     <Content Include="image\login icon for typo website.png" />
     <Content Include="image\mail icon for typo website.jpg" />
-    <Content Include="image\Patti PC.jpg" />
-    <Content Include="image\Penny Coin Purse PC.jpg" />
-    <Content Include="image\Plush PC.jpg" />
-    <Content Include="image\Premium Big Bro PC.jpg" />
-    <Content Include="image\PU Campus PC.jpg" />
-    <Content Include="image\Riley PC.jpg" />
-    <Content Include="image\shopping cart icon for typo website.png" />
-    <Content Include="image\Squad PC.jpg" />
     <Content Include="image\submit.gif" />
-    <Content Include="image\Triangle PC.jpg" />
-    <Content Include="image\typo logo large.png" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="scripts\coin-slider.js" />

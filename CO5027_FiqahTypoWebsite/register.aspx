@@ -22,6 +22,18 @@
             color: #000000;
         }
     </style>
+    <style type="text/css">
+        .auto-style17 {
+            color: #000000;
+            text-align: right;
+        }
+    </style>
+    <style type="text/css">
+        .auto-style19 {
+            color: #000000;
+            text-align: right;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="nav" runat="server">
     <div class="menu_nav">
@@ -44,7 +56,7 @@
             <td class="auto-style14"><asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*User name is required*" ControlToValidate="TextBoxUN" ForeColor="Red" Width="180px"></asp:RequiredFieldValidator></td>
         </tr>
         <tr>
-            <td class="auto-style18">E-mail</td>
+            <td class="auto-style19">E-mail</td>
             <td class="auto-style12"><asp:TextBox ID="TextBoxEmail" runat="server" Width="180px"></asp:TextBox></td>
             <td class="auto-style13"><asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="*Email is required*" ControlToValidate="TextBoxEmail" ForeColor="Red" Width="180px"></asp:RequiredFieldValidator>
                     <br />
@@ -56,7 +68,7 @@
             <td class="auto-style16"><asp:TextBox ID="TextBoxPass" runat="server" Width="180px" TextMode="Password"></asp:TextBox></td>
             <td class="auto-style16"><asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="*Password is required*" ControlToValidate="TextBoxPass" ForeColor="Red" Width="180px"></asp:RequiredFieldValidator></td>   
         </tr>
-        <tr><td class="auto-style18">Confirm Password</td>
+        <tr><td class="auto-style19">Confirm Password</td>
             <td class="auto-style12"><asp:TextBox ID="TextBoxRPass" runat="server" Width="180px" TextMode="Password"></asp:TextBox></td>
             <td class="auto-style12"><asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="*Confirm password is required*" ControlToValidate="TextBoxRPass" ForeColor="Red" Width="180px"></asp:RequiredFieldValidator>
                 <br />
@@ -66,7 +78,7 @@
                 </td>
         </tr>
         <tr>
-            <td class="auto-style17">Country</td>
+            <td class="auto-style19">Country</td>
             <td><asp:DropDownList ID="DropDownListCountry" runat="server" Width="180px">
                     <asp:ListItem>Select Country</asp:ListItem>
                     <asp:ListItem>Brunei</asp:ListItem>

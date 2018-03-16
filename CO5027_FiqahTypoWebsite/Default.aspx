@@ -40,7 +40,7 @@
             <td>
                 <asp:Image ID="Image7" runat="server" /><img src="image/PC 09.jpg"></td>
             <td>
-                <asp:Image ID="Image8" runat="server" /><img src">/></td>
+                <asp:Image ID="Image8" runat="server" /><img src="image/PC 10.jpg">/></td>
         </tr>
 
     </table>

@@ -1,10 +1,11 @@
-﻿@charset "utf-8";
+﻿<!-- master typo template division -->
 body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#FFFFCC;
+	color:black;
 	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+    color:black;
 }
 html, .main {
 	padding:0;
@@ -547,4 +548,41 @@ a {
         .auto-style18 {
             width: 265px;
         }
+        .auto-style17 {
+            text-align: right;
+            width: 195px;
+            color: #000000;
+        }
+        .auto-style18 {
+            text-align: right;
+            width: 195px;
+            height: 40px;
+            color: #000000;
+        }
+        .auto-style19 {
+            text-align: right;
+            width: 195px;
+            height: 26px;
+            color: #000000;
+        }
+        .auto-style17 {
+            color: #000000;
+            text-align: right;
+        }
+        .auto-style19 {
+            color: #000000;
+            text-align: right;
+        }
+        .auto-style19 {
+            color: #000000;
+            text-align: right;
+        }
+       .auto-style20 {
+            color: #000000;
+        }
+        .auto-style21 {
+            color: #000000;
+            text-align: center;
+        }
+       
   

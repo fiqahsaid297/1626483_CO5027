@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TypoMasterTemplate.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="CO5027_FiqahTypoWebsite.Login" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/TypoMasterTemplate.Master" AutoEventWireup="true" CodeBehind="Products.aspx.cs" Inherits="CO5027_FiqahTypoWebsite.Products" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
-    </asp:Content>
-<asp:Content ID="content4" ContentPlaceHolderID="nav" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="nav" runat="server">
      <div class="menu_nav">
         <ul>
           <li class="active"><a href="/Default.aspx"><span><strong>Home</strong></span></a></li>
@@ -16,19 +16,5 @@
         </ul>
         </div>
 </asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
-
-    <asp:Label ID="Label1" runat="server" Text="Login page"></asp:Label>
-        <br />
-        <asp:Label ID="txtLoginEmail" runat="server" style="color: #000000" Text="Username"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <br />
-        <asp:Label ID="txtLoginPassword" runat="server" style="color: #000000" Text="Password"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-   
-    <p>
-        <asp:Button ID="Button1" runat="server" style="height: 26px" Text="Login" />
-</p>
-    <asp:Literal ID="litLoginError" runat="server"></asp:Literal>
-
+<asp:Content ID="Content4" ContentPlaceHolderID="body" runat="server">
 </asp:Content>

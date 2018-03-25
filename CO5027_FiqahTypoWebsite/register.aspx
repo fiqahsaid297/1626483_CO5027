@@ -3,49 +3,19 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     Welcome to Typo website
-    <style type="text/css">
-        .auto-style17 {
-            text-align: right;
-            width: 195px;
-            color: #000000;
-        }
-        .auto-style18 {
-            text-align: right;
-            width: 195px;
-            height: 40px;
-            color: #000000;
-        }
-        .auto-style19 {
-            text-align: right;
-            width: 195px;
-            height: 26px;
-            color: #000000;
-        }
-    </style>
-    <style type="text/css">
-        .auto-style17 {
-            color: #000000;
-            text-align: right;
-        }
-    </style>
-    <style type="text/css">
-        .auto-style19 {
-            color: #000000;
-            text-align: right;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="nav" runat="server">
     <div class="menu_nav">
         <ul>
-          <li class="active"><a href="~/default"><span><strong>Home</strong></span></a></li>
-          <li><a href="~/products"><span><strong>Products</strong></span></a></li>
-          <li><a href="#"><span><strong>About Us</strong></span></a></li>
-          <li><a href="~/contact" runat="server"><span><strong>Contact</strong></span></a></li>
-          <li><a href="~/Login"><span><img src="image/login icon for typo website.png"></span></a></li>
-          <li><a href="#"><span><img src="image/shopping cart icon for typo website.png"></span></a></li>
+          <li class="active"><a href="/Default.aspx"><span><strong>Home</strong></span></a></li>
+          <li><a href="/Products.aspx"><span><strong>Products</strong></span></a></li>
+          <li><a href="/About.aspx"><span><strong>About Us</strong></span></a></li>
+          <li><a href="/Contact.aspx" runat="server"><span><strong>Contact</strong></span></a></li>
+          <li><a href="/Register.aspx" runat="server"><span><strong>Register</strong></span></a></li>
+          <li><a href="/Login.aspx"><span><img src="image/login icon for typo website.png"></span></a></li>
+          <li><a href="/ShoppingCart.aspx"><span><img src="image/shopping cart icon for typo website.png"></span></a></li>
         </ul>
-      </div>
+        </div>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="body" runat="server">
     <table>

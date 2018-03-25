@@ -142,29 +142,31 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="image\PC 01.jpg" />
-    <Content Include="image\PC 02.jpg" />
-    <Content Include="image\PC 03.jpg" />
-    <Content Include="image\PC 04.jpg" />
-    <Content Include="image\pc 05.jpg" />
-    <Content Include="image\PC 06.jpg" />
-    <Content Include="image\PC 07.jpg" />
-    <Content Include="image\PC 08.jpg" />
-    <Content Include="image\PC 09.jpg" />
-    <Content Include="image\PC 10.jpg" />
     <Content Include="image\shopping cart icon for typo website.png" />
     <Content Include="image\typo logo large.png" />
-    <Content Include="image\TYPO PC 02.jpg" />
+    <Content Include="image\typo-1.jpg" />
+    <Content Include="image\typo-10.jpg" />
+    <Content Include="image\typo-11.jpg" />
+    <Content Include="image\typo-12.jpg" />
+    <Content Include="image\typo-2.jpg" />
+    <Content Include="image\typo-3.jpg" />
+    <Content Include="image\typo-4.jpg" />
+    <Content Include="image\typo-5.jpg" />
+    <Content Include="image\typo-6.jpg" />
+    <Content Include="image\typo-7.jpg" />
+    <Content Include="image\typo-8.jpg" />
+    <Content Include="image\typo-9.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Products.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="TypoMasterTemplate.Master" />
     <Content Include="app.manifest" />
-    <Content Include="WebForm1.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -173,7 +175,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\coin-slider.css" />
     <Content Include="css\style.css" />
     <Content Include="contact.aspx" />
     <Content Include="Global.asax" />
@@ -191,6 +192,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -215,6 +223,13 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -230,13 +245,6 @@
     </Compile>
     <Compile Include="TypoMasterTemplate.Master.designer.cs">
       <DependentUpon>TypoMasterTemplate.Master</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

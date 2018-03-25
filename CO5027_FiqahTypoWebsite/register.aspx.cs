@@ -6,6 +6,8 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Configuration;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 
 namespace CO5027_FiqahTypoWebsite
@@ -19,7 +21,7 @@ namespace CO5027_FiqahTypoWebsite
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-           
+            
         }
     }
 }

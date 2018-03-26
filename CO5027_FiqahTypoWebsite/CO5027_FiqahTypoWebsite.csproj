@@ -165,6 +165,7 @@
     </Content>
     <Content Include="Products.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="ShoppingCart.aspx" />
     <Content Include="TypoMasterTemplate.Master" />
     <Content Include="app.manifest" />
     <None Include="Web.Debug.config">
@@ -237,6 +238,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.designer.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="TypoMasterTemplate.Master.cs">
